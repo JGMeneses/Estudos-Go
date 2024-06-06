@@ -2,15 +2,16 @@ package questoes
 
 import "fmt"
 
-// One é uma função que calcula a idade em dias
+// Leia a idade de uma pessoa expressa em anos, meses e dias e mostre-a expressa apenas em dias.
+// Obs: Considere cada mês com 30 dias.
 func One() {
 	var dias, meses, ano int
 
 	fmt.Print("Quantos anos tem:")
 	fmt.Scan(&ano)
-	fmt.Print("Digite sua idade em meses:")
+	fmt.Print("meses:")
 	fmt.Scan(&meses)
-	fmt.Print("Digite sua idade em dias:")
+	fmt.Print("dias:")
 	fmt.Scan(&dias)
 
 	idadeFinal := ano*360 + (meses*30 + dias)
