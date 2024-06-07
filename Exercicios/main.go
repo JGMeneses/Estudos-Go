@@ -2,26 +2,29 @@ package main
 
 import (
 	"fmt"
-	"projeto001/Exercicios/Lista01/questoes"
+	questions "projeto001/Exercicios/Lista01/questions"
 )
 
 func main() {
-	// Chame as funções dos arquivos primeiraQuest.go e segundaQuest.go conforme necessário
-	var escolha int
+	// Call the functions from firstQuest.go and secondQuest.go as needed
+	var choice int
 
-	fmt.Print("Qual questão quer acessar? \n 1- Primeira questão \n 2- Segunda questão \n 3- Terceira questão \n 3- Quarta questão")
-	fmt.Scan(&escolha) // Ler a escolha do usuário
+	fmt.Print("Which question do you want to access? \n 1- First question \n 2- Second question")
+	fmt.Print("\n 3- Third question \n 4- Fourth question\n 5- Five question")
+	fmt.Scan(&choice) // Read user's choice
 
-	switch escolha {
+	switch choice {
 	case 1:
-		questoes.One()
+		questions.One()
 	case 2:
-		questoes.Two()
+		questions.Two()
 	case 3:
-		questoes.Three()
+		questions.Three()
 	case 4:
-		questoes.Four()
+		questions.Four()
+	case 5:
+		questions.Five()
 	default:
-		fmt.Println("Opção inválida!")
+		fmt.Println("Invalid option!")
 	}
 }
