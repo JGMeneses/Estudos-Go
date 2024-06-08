@@ -10,7 +10,8 @@ func main() {
 	var choice int
 
 	fmt.Print("Which question do you want to access? \n 1- First question \n 2- Second question")
-	fmt.Print("\n 3- Third question \n 4- Fourth question\n 5- Five question")
+	fmt.Print("\n 3- Third question \n 4- Fourth question\n 5- Five question \n 6- Five question")
+	fmt.Print("\n 7- Third question \n 8- Fourth question\n 9- Five question \n 10- Five question\n")
 	fmt.Scan(&choice) // Read user's choice
 
 	switch choice {
@@ -24,6 +25,10 @@ func main() {
 		questions.Four()
 	case 5:
 		questions.Five()
+	case 6:
+		questions.Six()
+	case 7:
+		questions.Seven()
 	default:
 		fmt.Println("Invalid option!")
 	}
