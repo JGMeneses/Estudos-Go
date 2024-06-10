@@ -27,10 +27,6 @@ import (
 // • Escaleno: tem os comprimentos dos três lados diferentes.
 
 func One() {
-	one()
-}
-
-func one() {
 	x, err := getInput("Enter X: ")
 	if err != nil {
 		fmt.Println(err)
@@ -56,7 +52,6 @@ func one() {
 		fmt.Println("The values do not form a triangle")
 
 	}
-
 }
 
 func isValidTriangle(x, y, z int) bool {
