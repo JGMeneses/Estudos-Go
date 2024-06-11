@@ -56,13 +56,13 @@ func main() {
 		case 1:
 			questions02.One()
 		case 2:
-			//questions02.Two()
+			questions02.Two()
 		case 3:
-			//questions02.Three()
+			questions02.Three()
 		case 4:
-			//questions02.Four()
+			questions02.Four()
 		case 5:
-			//questions02.Five()
+			questions02.Five()
 		case 6:
 			//questions02.Six()
 		case 7:
