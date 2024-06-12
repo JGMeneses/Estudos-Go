@@ -67,6 +67,12 @@ func main() {
 			questions02.Six()
 		case 7:
 			questions02.Seven()
+		case 8:
+			questions02.Eighth()
+		case 9:
+			//questions02.Seven()
+		case 10:
+			//questions02.Seven()
 		default:
 			fmt.Println("Invalid option!")
 		}
